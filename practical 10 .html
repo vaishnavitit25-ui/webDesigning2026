@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Iframe Demo - Maps and External Pages</title>
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            background-color: #f2f2f2;
+        }
+        iframe {
+            border: 2px solid black;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Embedding Maps and External Pages using Iframe</h1>
+
+    <!-- Google Map -->
+    <h2>Google Map</h2>
+    <iframe 
+        src="https://www.google.com/maps?q=Nagpur&output=embed" 
+        width="400" 
+        height="300">
+    </iframe>
+
+    <!-- External Website -->
+    <h2>External Website</h2>
+    <iframe 
+        src="https://www.wikipedia.org" 
+        width="400" 
+        height="300">
+    </iframe>
+
+    <!-- Multiple Frames Layout -->
+    <h2>Multiple Frames Example</h2>
+
+    <iframe src="https://www.example.com" width="300" height="200"></iframe>
+    <iframe src="https://www.bing.com" width="300" height="200"></iframe>
+
+</body>
+</html>
